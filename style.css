@@ -9,12 +9,11 @@ body {
 }
 
 #container {
-    display: flex;
-    flex-flow: row nowrap;
+    display: grid;
+    grid-template-rows: repeat(4, 25vmin);
+    grid-template-columns: repeat(4, 25vmin);
 }
 .pixel {
-    background-color: aqua;
     border: 1px solid black;
-    min-width: 10px;
-    min-height: 20px;
+    background-color: aqua;
 }
