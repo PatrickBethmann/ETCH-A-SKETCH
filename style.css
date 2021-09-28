@@ -6,19 +6,28 @@
 
 body {
     background-color: aliceblue;
+    display: flex;
+    height: 100vmin;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 15px;
+    width: 100px;
 }
 
 .container {
     display: grid;
-    grid-template-rows: repeat(4, 25vmin);
-    grid-template-columns: repeat(4, 25vmin);
+    margin: 0px 50px 20px;
 }
 
 .pixel {
     border: 1px solid black;
     background-color: aqua;
+    aspect-ratio: 1/1;
 }
 
-.pixel:hover {
+.painted {
     background-color: blueviolet;
 }
