@@ -23,11 +23,10 @@ button {
 }
 
 .pixel {
-    border: 1px solid black;
-    background-color: aqua;
+    background-color: white;
     aspect-ratio: 1/1;
 }
 
 .painted {
-    background-color: blueviolet;
+    background-color: black;
 }
